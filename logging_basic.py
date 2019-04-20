@@ -5,7 +5,6 @@ logger = logging.getLogger(__name__)
 #logger.setLevel(logging.INFO)
 logger.setLevel(level=logging.DEBUG)
 
-#formatter = logging.Formatter('%(levelname)s:%(name)s:%(message)s')
 formatter = logging.Formatter("%(asctime)s [%(levelname)s] (%(funcName)s() (%(filename)s : %(lineno)d))  | %(message)s")
 
 file_handler = logging.FileHandler('employee_01.log')
@@ -15,7 +14,7 @@ logger.addHandler(file_handler)
 
 
 class User:
-    """A sample Employee class"""
+    """User class"""
 
     def __init__(self, first, last):
         self.first = first
