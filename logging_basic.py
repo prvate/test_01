@@ -14,7 +14,11 @@ logger.addHandler(file_handler)
 
 
 class User:
+<<<<<<< HEAD
     """User class"""
+=======
+    """ Users class """
+>>>>>>> afb09e2e733c75c2816aa3135c6e01b80f16f8ac
 
     def __init__(self, first, last):
         self.first = first
