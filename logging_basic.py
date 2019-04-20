@@ -15,7 +15,7 @@ logger.addHandler(file_handler)
 
 
 class User:
-    """A sample Employee class"""
+    """ Users class """
 
     def __init__(self, first, last):
         self.first = first
