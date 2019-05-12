@@ -14,16 +14,13 @@ logger.addHandler(file_handler)
 
 
 class User:
-<<<<<<< HEAD
+
     """User class"""
-=======
-    """ Users class """
->>>>>>> afb09e2e733c75c2816aa3135c6e01b80f16f8ac
 
     def __init__(self, first, last):
         self.first = first
         self.last = last
-        logger.info('Created Employee: {} - {}'.format(self.fullname, self.email))
+        logger.info('Created User: {} - {}'.format(self.fullname, self.email))
 
     @property
     def email(self):
